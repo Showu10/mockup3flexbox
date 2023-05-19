@@ -1,0 +1,164 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+nav {
+    height:50px;
+    width: 100%;
+
+}
+
+label.logo {
+    color: black;
+    font-size: 35px;
+    line-height:50px;
+    padding: 100px 0;
+    padding-left: 20px;
+    font-weight: 545;
+}
+
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 100px 0;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+}
+
+.button {
+    background-color: #4756DF;
+    color: white;
+    border: 1px solid #4756DF;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button:active {
+    background-color: white;
+    color: #4756DF;
+    border: 1px solid #4756DF;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: white;
+    color: #959090;
+    border: 1px solid #959090;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button2:active {
+    background-color: #959090;
+    color: white;
+    border: 1px solid #959090;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.body {
+    float: left;
+    width:50%;
+}
+.body h1 {
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 540;
+    margin-bottom: 5%;
+}
+
+.body p {
+    line-height: 25px;
+}
+
+aside {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.clr {
+    clear: both;
+}
+
+@media(min-width:1000px){
+    .thecourses {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
+
+
+
+.thecourses div {
+    border: 1px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.block{
+    flex-basis: 23%;
+    background-color: #f9f9f9;
+}
+
+.mainbody {
+	width: 80%;
+	margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;   
+}
+
+aside div img {
+    height: 400px;
+    width: min-content;
+    margin-top: 40px;
+}
+
+.courses h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 549;
+}
+
+.course {
+    color: black;
+    font-weight: 550;
+}
+
+.block h2 {
+    font-weight: 549.5;
+    letter-spacing: 2px;
+}
